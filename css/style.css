@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#search{
+    margin: 2px 0px;
+    margin-right: 5px;
+    border: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 6px;
+}
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+.navBar{
+    margin: 0;
+    display: flex;
+    margin: 6px;
+    font-family: 'Staatliches', cursive;
+}
+.leftNav{
+    background-color: rgb(181, 245, 117);
+    width: 70%;
+    border: rgb(181, 245, 117);
+    border-start-start-radius: 20px;
+    border-end-start-radius: 20px;
+}
+.rightNav{
+    background-color: rgb(181, 245, 117);
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.leftNav ul{
+    display: flex;
+    align-items: center;
+}
+.leftNav ul li{
+    list-style: none;
+    margin: 8px;
+}
+.leftNav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.leftNav ul li a:hover{
+    text-decoration: none;
+    color: rgb(18, 112, 85);
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+.logo img{
+    width: 30%;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 30px;
+}
+.sBtn{
+    
+    padding: 6px;
+    border: rgb(13, 173, 139);
+    background-color: rgb(107, 221, 196);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+}
+.sBtn:hover{
+    padding: 6px;
+    border: rgb(36, 165, 154);
+    background-color: rgb(36, 165, 154);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+}
+.lBtn{
+    margin: 20px 0px;
+    margin-right: 28px;
+    padding: 11px 29px;
+    border: rgb(13, 173, 139);
+    background-color: rgb(107, 221, 196);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+    font-weight: bolder;
+}
+.lBtn:hover{
+    margin: 20px 0px;
+    margin-right: 32px;
+    padding: 11px 29px;
+    border: rgb(36, 165, 154);
+    background-color: rgb(36, 165, 154);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+}
+.main{
+    margin: 24px 6px;
+    padding-top: 187px;
+    padding-bottom: 187px;
+    padding-right: 70px;
+    border-radius: 20px;
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main-content{
+    width: 60%;
+}
+.pBold{
+    font-size: 23px;
+    margin: 5px 0px;
+}
+.main-about{
+    background: url("../img/background_1.jpg") rgb(147, 231, 213);
+    background-size: cover;
+    background-blend-mode: darken;
+    margin: 30px 6px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-family: 'Staatliches', cursive;
+    margin: 20px 0px ;
+    background-color: rgba(205, 247, 233,.9);
+    border-radius: 20px;
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para-rev{
+    font-family: 'Staatliches', cursive;
+    margin: 20px 0px ;
+    background-color: rgba(205, 247, 233,.9);
+    border-radius: 20px;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.para p{
+    margin: 20px;
+    text-align: center;
+}
+.para-rev p{
+    margin: 20px;
+    text-align: center;
+}
+.about-img{
+    width: 30%;
+    margin-left: 30px;
+}
+.about-img-rev{
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.about-img img{
+    border-radius: 20px;
+}
+.about-img-rev img{
+    border-radius: 20px;
+}
+.background{
+    background: url("../img/background_0.jpg") rgb(147, 231, 213);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.footer{
+    margin: 30px 6px;
+    padding: 40px;
+    font-family: 'Staatliches', cursive;
+}
+.form-content{
+    margin: 3px;
+}
+.footer{
+    background-color: rgb(181, 245, 117);
+    border-radius: 20px;
+    display: flex;
+}
+.rightFooter{
+    width: 50%;
+}
+.leftFooter{
+    width: 50%;
+}
+.text-margin{
+    margin: 10px;
+}
+.burger{
+    display: none;
+    margin: 6px;
+}
+.line{
+    width: 50px;
+    height: 4px;
+    background-color: rgb(86, 180, 149);
+    margin: 4px 4px;
+    cursor: pointer;
+}
+.t2{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 845px){
+    .navBar{
+        /* width: 98.1%; */
+        margin: 0px 6px;
+        background-color: rgb(181, 245, 117);
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .leftNav{
+        background: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .leftNav ul{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightNav{
+        width: 100%;
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger{
+        display: block;
+    }
+    .sBtn{
+        margin: 6px 0px;
+    }
+    .hNav{
+        height: 43px;
+    }
+    .dNone{
+        display: none;
+    }
+    .background{
+        margin-top: 24px;
+        background-size: cover;
+        background-position: top;
+    }
+    .para{
+        flex-direction: column;
+    }
+    .para-rev{
+        flex-direction: column;
+    }
+    .about-img{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-img-rev{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bLogo{
+        width: 80%;
+    }
+}
+
+@media only Screen and (max-width: 1090px) {
+    .t1{
+        display: none;
+    }
+    .t2{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 535px){
+    .footer{
+        flex-direction: column;
+    }
+    .rightFooter{
+        margin-top: 40px;
+    }
+    #bLogo{
+        width: 130%;
+    } 
+    #tLogo{
+        width: 60%;
+    }
+
+}

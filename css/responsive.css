@@ -1,0 +1,93 @@
+@media only screen and (max-width: 845px){
+    .navBar{
+        /* width: 98.1%; */
+        margin: 0px 6px;
+        background-color: rgb(181, 245, 117);
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .leftNav{
+        background: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .leftNav ul{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightNav{
+        width: 100%;
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger{
+        display: block;
+    }
+    .sBtn{
+        margin: 6px 0px;
+    }
+    .hNav{
+        height: 43px;
+    }
+    .dNone{
+        display: none;
+    }
+    .background{
+        margin-top: 24px;
+        background-size: cover;
+        background-position: top;
+    }
+    .para{
+        flex-direction: column;
+    }
+    .para-rev{
+        flex-direction: column;
+    }
+    .about-img{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-img-rev{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bLogo{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 535px){
+    .footer{
+        flex-direction: column;
+    }
+    .rightFooter{
+        margin-top: 40px;
+    }
+    #bLogo{
+        width: 130%;
+    } 
+    #tLogo{
+        width: 60%;
+    }
+
+}
+
+@media only Screen and (max-width: 1090px) {
+    .t1{
+        display: none;
+    }
+    .t2{
+        display: inline-block;
+    }
+}
+
